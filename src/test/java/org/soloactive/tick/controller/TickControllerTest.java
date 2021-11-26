@@ -61,7 +61,7 @@ public class TickControllerTest {
         PostTickCommand command = new PostTickCommand();
         ResponseEntity responseEntity = tickController.postTicks(command);
 
-        assertThat(responseEntity.getStatusCodeValue()).isEqualTo(200);
+        assertThat(responseEntity.getStatusCodeValue()).isEqualTo(201);
     }
 
 
